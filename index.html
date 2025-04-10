@@ -1,92 +1,70 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maquiplast Plásticos Especiais</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquiplast Plásticos Especiais Ltda</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-blue-50 text-gray-800">
+<body>
+    <header>
+        <div class="logo-nav">
+            <img src="logo.png" alt="Logo Maquiplast" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre a Maquiplast</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#novidades">Novidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <!-- Navbar -->
-  <header class="bg-blue-700 text-white p-4 shadow-md">
-    <div class="container mx-auto flex justify-between items-center">
-      <div class="flex items-center gap-4">
-        <img src="assets/logo.png" alt="Logo Maquiplast" class="h-16 w-auto">
-        <h1 class="text-xl font-bold">Maquiplast Plásticos Especiais Ltda</h1>
-      </div>
-      <nav class="flex gap-6 text-sm font-medium">
-        <a href="#sobre" class="hover:text-yellow-300">Sobre a Maquiplast</a>
-        <a href="#produtos" class="hover:text-yellow-300">Produtos</a>
-        <a href="#novidades" class="hover:text-yellow-300">Novidades</a>
-        <a href="#contato" class="hover:text-yellow-300">Contato</a>
-      </nav>
-    </div>
-  </header>
+    <section class="video-section">
+        <video controls autoplay muted loop>
+            <source src="video.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo.
+        </video>
+    </section>
 
-  <!-- Video -->
-  <section class="bg-blue-100 py-6">
-    <div class="container mx-auto">
-      <video class="w-full rounded shadow-md" autoplay muted loop playsinline>
-        <source src="assets/video.mp4" type="video/mp4">
-        Seu navegador não suporta a reprodução de vídeo.
-      </video>
-    </div>
-  </section>
+    <section id="sobre">
+        <h2>Sobre a Maquiplast</h2>
+        <p>A Maquiplast Plásticos Especiais Ltda é especializada na produção de embalagens plásticas para alimentos...</p>
+    </section>
 
-  <!-- Sobre -->
-  <section id="sobre" class="py-10 px-6 text-center">
-    <h2 class="text-2xl font-bold text-blue-700 mb-4">Sobre a Maquiplast</h2>
-    <p class="max-w-3xl mx-auto">
-      A Maquiplast é referência em embalagens plásticas para alimentos, oferecendo soluções em Nylon-poli, filmes para termoformadoras, bisnagas, embalagens stand-up e laminadas.
-    </p>
-  </section>
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <ul>
+            <li>Embalagens de Nylon-poli</li>
+            <li>Filme para termofomadoras</li>
+            <li>Bisnaga para requeijão</li>
+            <li>Embalagens Stand-up e Pouche</li>
+            <li>Embalagens Laminadas</li>
+        </ul>
+    </section>
 
-  <!-- Produtos -->
-  <section id="produtos" class="bg-white py-10 px-6">
-    <h2 class="text-2xl font-bold text-blue-700 text-center mb-6">Nossas Soluções</h2>
-    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-      <div class="bg-blue-100 p-4 rounded shadow">
-        <h3 class="font-semibold text-lg">Nylon-Poli</h3>
-        <p>Estrutura para produtos embalados a vácuo, com ou sem impressão.</p>
-      </div>
-      <div class="bg-blue-100 p-4 rounded shadow">
-        <h3 class="font-semibold text-lg">Filme para Termoformadoras</h3>
-        <p>Filmes tampa e fundo especiais para termoformadoras a vácuo.</p>
-      </div>
-      <div class="bg-blue-100 p-4 rounded shadow">
-        <h3 class="font-semibold text-lg">Bisnaga para Requeijão</h3>
-        <p>Formatos especiais para produtos pastosos.</p>
-      </div>
-      <div class="bg-blue-100 p-4 rounded shadow">
-        <h3 class="font-semibold text-lg">Stand-up e Pouch</h3>
-        <p>Embalagens especiais com sanfona no fundo.</p>
-      </div>
-      <div class="bg-blue-100 p-4 rounded shadow">
-        <h3 class="font-semibold text-lg">Embalagens Laminadas</h3>
-        <p>Embalagens em formato de sacos convencionais.</p>
-      </div>
-    </div>
-  </section>
+    <section id="novidades">
+        <h2>Novidades</h2>
+        <p>Fique por dentro das últimas inovações e lançamentos da Maquiplast.</p>
+    </section>
 
-  <!-- Novidades -->
-  <section id="novidades" class="bg-blue-50 py-10 px-6 text-center">
-    <h2 class="text-2xl font-bold text-blue-700 mb-4">Novidades</h2>
-    <p>Fique por dentro dos nossos lançamentos e inovações em embalagens plásticas.</p>
-  </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Endereço: R. Marcelino da Silva, 16 - Núcleo Micro Industrial Pres. Wilson, Jandira - SP, 06602-030</p>
+        <p>Telefone: (11) 4619-9696</p>
+        <p>Email: vendas@maquiplast.com.br</p>
+        <p>WhatsApp: (11) 4619-9696</p>
+    </section>
 
-  <!-- Contato -->
-  <section id="contato" class="bg-white py-10 px-6 text-center">
-    <h2 class="text-2xl font-bold text-blue-700 mb-4">Contato</h2>
-    <p><strong>Endereço:</strong> R. Marcelino da Silva, 16 - Nucleo Micro Industrial Pres. Wilson, Jandira - SP, 06602-030</p>
-    <p><strong>Telefone:</strong> (11) 4619-9696</p>
-    <p><strong>Email:</strong> <a href="mailto:vendas@maquiplast.com.br" class="text-blue-700 underline">vendas@maquiplast.com.br</a></p>
-    <p><strong>WhatsApp:</strong> (11) 4619-9696</p>
-  </section>
+    <section class="mapa">
+        <h2>Localização</h2>
+        <iframe src="https://www.google.com/maps?q=R.+Marcelino+da+Silva,+16,+Jandira+-+SP,+06602-030&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
 
-  <footer class="bg-blue-700 text-white py-4 text-center">
-    <p>&copy; 2025 Maquiplast Plásticos Especiais Ltda. Todos os direitos reservados.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Maquiplast Plásticos Especiais Ltda. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
