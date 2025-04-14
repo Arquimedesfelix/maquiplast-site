@@ -1,56 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maquiplast Plásticos Especiais Ltda</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo-nav">
+        <div class="logo-container">
             <img src="logo.png" alt="Logo Maquiplast" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre a Maquiplast</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#novidades">Novidades</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
         </div>
+        <nav class="nav-buttons">
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#novidades">Novidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
 
     <section class="video-section">
-        <video controls autoplay muted loop>
+        <video autoplay muted loop controls>
             <source src="video.mp4" type="video/mp4">
-            Seu navegador não suporta o vídeo.
+            Seu navegador não suporta vídeo HTML5.
         </video>
     </section>
 
-    <section id="sobre">
+    <section id="produtos" class="produtos-section">
+        <div class="produto">
+            <img src="img1.jpg" alt="Nylon-poli">
+            <p>Embalagens de Nylon-poli</p>
+        </div>
+        <div class="produto">
+            <img src="img2.jpg" alt="Termoformadoras">
+            <p>Filmes para Termoformadoras</p>
+        </div>
+        <div class="produto">
+            <img src="img3.jpg" alt="Bisnaga">
+            <p>Bisnaga para Requeijão</p>
+        </div>
+        <div class="produto">
+            <img src="img4.jpg" alt="Stand-up">
+            <p>Embalagens Stand-up e Pouche</p>
+        </div>
+        <div class="produto">
+            <img src="img5.jpg" alt="Laminadas">
+            <p>Embalagens Laminadas</p>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
         <h2>Sobre a Maquiplast</h2>
-        <p>A Maquiplast Plásticos Especiais Ltda é especializada na produção de embalagens plásticas para alimentos...</p>
+        <p>Maquiplast Plásticos Especiais Ltda é especializada em embalagens plásticas para alimentos com excelência e qualidade.</p>
     </section>
 
-    <section id="produtos">
-        <h2>Produtos</h2>
-        <ul>
-            <li>Embalagens de Nylon-poli</li>
-            <li>Filme para termofomadoras</li>
-            <li>Bisnaga para requeijão</li>
-            <li>Embalagens Stand-up e Pouche</li>
-            <li>Embalagens Laminadas</li>
-        </ul>
-    </section>
-
-    <section id="novidades">
-        <h2>Novidades</h2>
-        <p>Fique por dentro das últimas inovações e lançamentos da Maquiplast.</p>
-    </section>
-
-    <section id="contato">
+    <section id="contato" class="contato">
         <h2>Contato</h2>
         <p>Endereço: R. Marcelino da Silva, 16 - Núcleo Micro Industrial Pres. Wilson, Jandira - SP, 06602-030</p>
         <p>Telefone: (11) 4619-9696</p>
@@ -59,12 +62,8 @@
     </section>
 
     <section class="mapa">
-        <h2>Localização</h2>
-        <iframe src="https://www.google.com/maps?q=R.+Marcelino+da+Silva,+16,+Jandira+-+SP,+06602-030&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps?q=R.+Marcelino+da+Silva,+16+-+Nucleo+Micro+Industrial+Pres.+Wilson,+Jandira+-+SP,+06602-030&output=embed"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Maquiplast Plásticos Especiais Ltda. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
