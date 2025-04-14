@@ -1,61 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e0f0ff;
+  font-family: Arial, sans-serif;
+  background-color: #e6f0fa;
+  color: #333;
+  line-height: 1.6;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #003366;
-    color: white;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077cc;
+  padding: 1rem 2rem;
 }
 
-.logo {
-    height: 60px;
+header .logo img {
+  height: 50px;
 }
 
-.nav-buttons a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: bold;
+header .menu a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.video-section video {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+header .menu a:hover {
+  text-decoration: underline;
 }
 
-.produtos-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 30px;
-    background-color: #f5faff;
+.video-container video {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
 }
 
-.produto {
-    width: 180px;
-    margin: 15px;
-    text-align: center;
+.container {
+  padding: 2rem;
+}
+
+.produtos .produto {
+  display: flex;
+  margin-bottom: 1.5rem;
+  gap: 20px;
 }
 
 .produto img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  width: 200px;
+  border-radius: 8px;
 }
 
-.sobre, .contato {
-    padding: 30px;
-    background-color: #ffffff;
-}
-
-.mapa {
-    margin-top: 20px;
+footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
